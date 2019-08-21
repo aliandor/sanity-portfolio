@@ -1,5 +1,5 @@
 export default {
-  name: "image",
+  name: "imageaAsset",
   title: "image",
   type: "image",
   options: {
