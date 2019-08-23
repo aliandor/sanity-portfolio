@@ -9,6 +9,14 @@ export default {
       type: "string"
     },
     {
+      name: "slug",
+      title: "Slug",
+      type: "slug",
+      options: {
+        slugify: input => input.toLowerCase().replace(/\s+/g, "_")
+      }
+    },
+    {
       name: "heroImage",
       title: "Hero Image",
       type: "image",

@@ -14,9 +14,23 @@ export default {
       type: "string"
     },
     {
+      name: "slug",
+      title: "Slug",
+      type: "slug",
+      options: {
+        source: "projectName",
+        slugify: input => input.toLowerCase().replace(/\s+/g, "_")
+      }
+    },
+    {
       name: "hero",
       title: "Hero",
       type: "image"
+    },
+    {
+      name: "summary",
+      title: "Summary",
+      type: "text"
     },
     {
       name: "theDetails",
