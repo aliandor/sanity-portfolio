@@ -28,6 +28,11 @@ export default {
       type: "image"
     },
     {
+      name: "cardImage",
+      title: "dard Image",
+      type: "image"
+    },
+    {
       name: "summary",
       title: "Summary",
       type: "text"
