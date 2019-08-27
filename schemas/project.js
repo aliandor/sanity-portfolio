@@ -82,6 +82,16 @@ export default {
       name: "codeImage",
       title: "Code Image",
       type: "image"
+    },
+    {
+      name: "color",
+      title: "Theme Color",
+      type: "string"
+    },
+    {
+      name: "url",
+      title: "URL",
+      type: "string"
     }
   ]
 };
