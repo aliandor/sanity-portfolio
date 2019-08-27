@@ -89,8 +89,13 @@ export default {
       type: "string"
     },
     {
-      name: "url",
-      title: "URL",
+      name: "urlSite",
+      title: "URL - website",
+      type: "url"
+    },
+    {
+      name: "urlGitHub",
+      title: "URL - github",
       type: "url"
     }
   ]
