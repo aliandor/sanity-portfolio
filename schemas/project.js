@@ -91,7 +91,7 @@ export default {
     {
       name: "url",
       title: "URL",
-      type: "string"
+      type: "url"
     }
   ]
 };
